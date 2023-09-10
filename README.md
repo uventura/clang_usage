@@ -5,7 +5,6 @@
 ## Ubuntu Installation
 
 ```bash
-`
 sudo apt update
 sudo apt install clang
 sudo apt install llvm
@@ -14,7 +13,6 @@ sudo apt install llvm
 ### How to run on Ubuntu?
 
 ```bash
-`
 clang.sh <program>.c
 ```
 
