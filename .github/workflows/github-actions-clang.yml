@@ -12,7 +12,7 @@ jobs:
           platform: x64
       - name: Address Sanitizer
         run: |
-          clang -g -fsanitize=address ${{ github.repository }}/examples/address_sanitizer.c -c
+          clang -g -fsanitize=address ${{ github.workspace }}/../examples/address_sanitizer.c -c
       - name: Undefined Behavior Sanitizer
         run: |
-          clang -g -fsanitize=undefined_behavior.c ${{ github.repository }}/examples/address_sanitizer.c -c
+          clang -g -fsanitize=undefined_behavior.c ${{ github.workspace }}/../examples/address_sanitizer.c -c
