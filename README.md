@@ -19,7 +19,6 @@ clang.sh <program>.c
 ## Windows Installation
 
 Install Clang, you can check here https://www.wikihow.com/Install-Clang-on-Windows
-
 Install LLVM, https://github.com/llvm/llvm-project/releases/tag/llvmorg-15.0.7
 
 ### How to run on Windows
